@@ -1,0 +1,92 @@
+---
+title: "Graficas"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+```
+
+
+Para estos ejercicios usaremos nuestro dataset de Paises felicidad
+
+```{r}
+
+paises_felicidad <- read_csv("data/paises_felicidad.csv")
+```
+
+
+
+```{r}
+head(paises_felicidad)
+```
+
+
+
+# Tu turno 1
+
+Crea una grafica de puntos con las variables `escalera_vida` y `log_pib`
+
+```{r}
+
+```
+
+# Tu turno 2
+
+Crea un histograma para los años
+```{r}
+
+```
+
+
+# Tu turno 3
+
+Crea una grafica de densidad para la expectativa_vida
+```{r}
+
+
+```
+
+# Tu turno 4
+
+*Filtre* los datos de tal manera que pueda graficar la percepcion_corrupcion para cada año en el caso de *México*
+
+```{r}
+
+
+```
+
+# Tu turno 5
+
+Ahora el relleno de las barras sea de color rojo
+
+```{r}
+
+```
+
+# Tu turno 6
+
+y que tal si el relleno de las barras se determina por el año
+
+```{r}
+
+```
+
+# Tu turno 7
+
+
+Crea un box plot para determinar donde se encuentran los cuartiles de edad según la libertad para México, Colombia Chile y Bolivia
+
+```{r}
+
+```
+
+# Tu turno 8
+
+Para la grafica anterior agregue titulo, cambia las leyendas, cambia el tema,
+experimenta ;)
+
+*no olvides guardarla para presumirla con tu amigos*
+
+```{r}
+```
